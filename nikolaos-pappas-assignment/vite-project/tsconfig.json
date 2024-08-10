@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "@testing-library/jest-dom", "vitest/globals"]
+  },
+  "include": ["src", "src/setupTests.js"],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
